@@ -1,0 +1,16 @@
+@import '_includes/_variables';
+@import '_includes/_reset';
+
+
+.main {
+    width: 800px;
+    height: 600px;
+    display: block;
+    border: solid 1px $grey-lighter;
+    margin: 0px auto;
+}
+.app-header {
+    height: 80px;
+    position: relative;
+    padding: 0 20px;
+}

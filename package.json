@@ -1,0 +1,23 @@
+{
+  "name": "gulpapp",
+  "version": "1.0.0",
+  "description": "Gulp example app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fahimshani",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "bulma": "^0.7.2",
+    "del": "^3.0.0",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
