@@ -10,7 +10,31 @@
     margin: 0px auto;
 }
 .app-header {
-    height: 80px;
+    height: 60px;
     position: relative;
     padding: 0 20px;
+    border-bottom: dotted 1px $grey-lighter;
+}
+.navbar-brand {
+    margin-top: 15px;
+    position: relative;
+    display: block;
+    float: left;
+}
+.navbar-menu {
+    float: right;
+    margin-top: 20px;
+}
+.main-content {
+    position: relative;
+    padding: 20px;
+    display: flex;
+}
+.navbar-menu {
+
+
+    .navbar-item a {
+        display: inline-block;
+        margin-left: 20px;
+    }
 }

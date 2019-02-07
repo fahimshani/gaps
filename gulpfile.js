@@ -129,7 +129,7 @@ function watchFiles() {
 // define complex tasks
 //const js = gulp.series(scriptsLint, scripts);
 const build = gulp.series(clean, gulp.parallel(css, images, copyVendors, copyFonts, htmlTemplates));
-const serve = gulp.parallel(watchFiles, browserSync, copyVendors, copyFonts);
+const serve = gulp.parallel(watchFiles, browserSync, copyVendors, css, images, copyFonts, htmlTemplates);
 
 
 // export tasks

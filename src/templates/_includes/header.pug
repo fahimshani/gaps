@@ -2,12 +2,11 @@ header.app-header.container.app
   nav.navbar(role='navigation', aria-label='main navigation')
     .navbar-brand
       a.navbar-item(href='https://bulma.io')
-        img(src='https://bulma.io/images/bulma-logo.png', width='112', height='28')
-    #navbarBasicExample.navbar-menu
-      .navbar-end
-        .navbar-item
-          .buttons
-            a.button.is-primary
-              strong Sign up
-            a.button.is-light
-              | Log in
+        img(src='./imgs/headerLogoBankABC.png', width='125', height='')
+    .navbar-menu
+      .navbar-item
+        .buttons
+          a.button.is-primary(href='#' class=lang ? 'show' : 'hide')
+            |  Language
+          a.button.is-light(href='#' class=cardReturn ? 'show' : 'hide')
+            |  Cancel & Retrun Card

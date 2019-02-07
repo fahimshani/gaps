@@ -1,4 +1,4 @@
-- var static = true
+
 doctype html
 include ../_partials/banner.pug
 
@@ -10,8 +10,5 @@ html(lang='en')
   body.app.header-fixed.sidebar-fixed
     .app-body
       main(class='main')
-          include ../_includes/header.pug
-          block view
-          include ../_includes/footer.pug
-    
+        block view
     include ../_partials/scripts.pug

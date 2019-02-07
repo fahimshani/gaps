@@ -1,0 +1,21 @@
+extends _layouts/default.pug
+
+block view
+  - var lang = true
+  - var cardReturn = true
+  include _includes/header.pug
+  .main-content
+    .notification
+      | This container is 
+      strong centered
+      |  on desktop
+    .container
+      br
+      br
+      h2 Headline
+      
+      p(class=lang ? 'show' : 'hide') | Test
+
+
+
+  include _includes/footer.pug
