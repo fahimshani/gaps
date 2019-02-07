@@ -1,7 +1,7 @@
 {
-  "name": "gulpapp",
+  "name": "gaps",
   "version": "1.0.0",
-  "description": "Gulp example app",
+  "description": "Gulp app With Pug and Sass",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
