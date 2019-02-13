@@ -5,16 +5,80 @@ block view
   - var cardReturn = true
   include _includes/header.pug
   .main-content
-    .notification
-      | This container is 
-      strong centered
-      |  on desktop
     .container
-      br
-      br
-      h2 Headline
+      .row.align-items-end.mb-5
+        .col.text-left
+          a.btn.btn-sm.btn-light.rounded-pill Main Menu
+        .col-6.text-center
+          h3.main-title.text-light Welcome to ila
+        .col.text-right
+          a.btn.btn-sm.btn-light.rounded-pill 
+            i.fas.fa-sign-out-alt
+            span.small.font-weight-bold.pl-1  Return Card
+
+
+      .menu-container
+        #main-menu
+          div#cashWithdraw.menu-item
+            a(href='#')
+              i.menu-icon i
+              label Cash Withdraw
+
+          div#deposit.menu-item.m-r-l-20
+            a(href='#')
+              i.menu-icon i
+              label Deposit
+          
+          div#miniStatement.menu-item.m-r-l-20
+            a(href='#')
+              i.menu-icon i
+              label Mini Statement
+
+          div#pinChange.menu-item
+            a(href='#')
+              i.menu-icon i
+              label Pin Change
+
+          div#cashWithdraw.menu-item
+            a(href='#')
+              i.menu-icon i
+              label Fund Transfer
+
+          div#deposit.menu-item.m-r-l-20
+            a(href='#')
+              i.menu-icon i
+              label Balance Inquiry
+          
+          div#miniStatement.menu-item.m-r-l-20
+            a(href='#')
+              i.menu-icon i
+              label Bill Payments
+
+          div#pinChange.menu-item
+            a(href='#')
+              i.menu-icon i
+              label Top Ups
+        div.clearfix
+        div.fast-cash
+          div#fastCash.menu-item-slim
+            a(href='#')
+              label Fast Cash
+          
+          div#fastCash.menu-item-slim.m-r-l-20
+            a(href='#')
+              label 5
+              span BHD
+          
+          div#fastCash.menu-item-slim.m-r-l-20
+            a(href='#')
+              label 10
+              span BHD
+
+          div#fastCash.menu-item-slim
+            a(href='#')
+              label 20
+              span BHD
       
-      p(class=lang ? 'show' : 'hide') | Test
 
 
 

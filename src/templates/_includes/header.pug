@@ -1,12 +1,16 @@
-header.app-header.container.app
-  nav.navbar(role='navigation', aria-label='main navigation')
-    .navbar-brand
-      a.navbar-item(href='https://bulma.io')
-        img(src='./imgs/headerLogoBankABC.png', width='125', height='')
-    .navbar-menu
-      .navbar-item
-        .buttons
-          a.button.is-primary(href='#' class=lang ? 'show' : 'hide')
-            |  Language
-          a.button.is-light(href='#' class=cardReturn ? 'show' : 'hide')
-            |  Cancel & Retrun Card
+#app.app-header
+  nav.navbar.navbar-expand-md
+    a.navbar-brand.float-right.order-md-last(href='#')
+      img(width='60', height='', src='./imgs/logoIla.png')
+    #navbarAction.navbar-collapse
+      
+      ul.navbar-nav
+        li.nav-item
+          button.btn.btn-sm.btn-outline-light.rounded-pill.mt-1(type='button') 
+            span.pr-3.pl-3 ﺍﻟﻌﺮبﻴﺔ
+        li.nav-item
+          span.navbar-text.text-light.ml-3 10:08
+          span.navbar-text.text-light.ml-2 Good Morning Faheem  
+        
+        //- li.nav-item
+        //-   a.bank-font.is-light.is-invisible(href='#')  Cancel &amp; Retrun Card
